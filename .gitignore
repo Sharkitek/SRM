@@ -1,0 +1,15 @@
+# IDEA
+
+.idea/
+*.iml
+
+# JS library
+
+coverage/
+lib/
+.parcel-cache/
+.yarn/
+.yarnrc*
+yarn-error.log
+.pnp*
+node_modules/

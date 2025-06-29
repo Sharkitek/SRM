@@ -1,0 +1,53 @@
+{
+	"name": "@sharkitek/srm",
+	"version": "4.0.0",
+	"description": "TypeScript ORM for Sharkitek models.",
+	"keywords": [
+		"mapping",
+		"model",
+		"object",
+		"orm",
+		"postgresql",
+		"relational",
+		"sharkitek",
+		"sql"
+	],
+	"repository": "https://code.zeptotech.net/Sharkitek/SRM",
+	"author": {
+		"name": "Madeorsk",
+		"email": "m@deor.sk"
+	},
+	"license": "MIT",
+	"publishConfig": {
+		"access": "public"
+	},
+	"scripts": {
+		"build": "tsc && vite build",
+		"test": "vitest",
+		"coverage": "vitest run --coverage",
+		"format": "prettier . --write",
+		"lint": "eslint"
+	},
+	"type": "module",
+	"source": "src/library.ts",
+	"types": "lib/index.d.ts",
+	"main": "lib/index.js",
+	"files": [
+		"lib/**/*"
+	],
+	"devDependencies": {
+		"@eslint/js": "^9.30.0",
+		"@types/node": "^24.0.3",
+		"@vitest/coverage-v8": "^3.2.4",
+		"eslint": "^9.30.0",
+		"globals": "^16.2.0",
+		"prettier": "^3.6.0",
+		"ts-node": "^10.9.2",
+		"typescript": "^5.8.3",
+		"typescript-eslint": "^8.35.0",
+		"vite": "^7.0.0",
+		"vite-plugin-dts": "^4.5.4",
+		"vitest": "^3.2.4"
+	},
+	"packageManager": "yarn@4.9.2"
+}
